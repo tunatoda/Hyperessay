@@ -1,0 +1,126 @@
+h6{
+    /* HOME PAGE SUBTITLE */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: 500px;
+    position: absolute;
+    left: 295px;
+    bottom: 25%;
+    text-align: left
+}
+.menu{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: 500px;
+    position: relative;
+    left: 600px;
+    top: 70px;
+}
+h3{
+    /* HEADLINES */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 500px;
+    position: absolute;
+    left: 600px;
+    bottom: 320px;
+    text-align: left;
+
+    white-space: nowrap;
+    overflow: hidden
+}
+.body{
+    /* BODY TEXT */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    position: absolute;
+    left: 600px;
+    bottom: 20%;
+    height: 150px;
+    padding-right: 50px;
+    text-align: left;
+}
+h2{
+    /* TITLES */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    position: relative;
+    left: 590px;
+    top: -10px;
+    text-align: left;
+
+    white-space: nowrap;
+    overflow: hidden
+}
+pre{
+    /* ASCII ART */
+    position: absolute;
+    left: 140px;
+    top: 250px;
+    text-align: left
+}
+.menutitle{
+    /* MENU ASCII ART */
+    position: absolute;
+    left: 510px;
+    top: 20px;
+    text-align: left
+}
+.pages{
+    /* ASCII ON PAGES */
+    font-size: 8px;
+    position: absolute;
+    left: -50px;
+    top: 10px;
+    padding: 25px;
+    text-align: left;
+
+    white-space: nowrap;
+    overflow: hidden
+}
+body{
+    background: rgb(240, 238, 236);
+    max-width: fit-content
+}
+span{
+    background-color: #f5fe49
+}
+
+.span2{
+    background-color: lightgray;
+}
+
+.buttons{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: absolute;
+    left: 570px;
+    top: 615px;
+    padding: 30px;
+}
+
+/* TEXT Animation */
+.anim-typewriter{
+  animation: typewriter 6s steps(75) 0s 1 normal both,
+             blinkTextCursor 200ms steps(34) infinite normal;
+             transform: translateY(20px);
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 1080px;}
+}
+
+/* ASCII Animation */
+.ascii-typewriter{
+    animation: typewriter 4s steps(34) 0s 1 normal both,
+               blinkTextCursor 200ms steps(34) infinite normal;
+  }
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 750px;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+  }
